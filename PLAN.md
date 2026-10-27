@@ -119,17 +119,17 @@ DONE WHEN:
 ## Phase 6. Polish
 
 Do:
-- [ ] README: one-paragraph pitch
-- [ ] README: Mermaid architecture diagram
-- [ ] README: quick start (5 commands or fewer)
-- [ ] README: test plan (scope, approach per layer, risks, out of scope and why)
-- [ ] README: seeded defects table
-- [ ] README: "what I'd do next"
-- [ ] Screenshots of the compare report and the Playwright report in /docs/images
-- [ ] STOP: ask the user whether they want to record a demo GIF themselves
+- [x] README: one-paragraph pitch
+- [x] README: Mermaid architecture diagram
+- [x] README: quick start (5 commands or fewer)
+- [x] README: test plan (scope, approach per layer, risks, out of scope and why)
+- [x] README: seeded defects table
+- [x] README: "what I'd do next"
+- [x] Screenshots of the compare report and the Playwright report in /docs/images
+- [x] STOP: ask the user whether they want to record a demo GIF themselves
 
 DONE WHEN:
-- [ ] A fresh clone in a new folder, following only the README, reaches green tests.
-- [ ] The README renders correctly on GitHub, including the Mermaid diagram and the images.
-- [ ] PLAN.md is fully ticked.
-- [ ] Final report: test counts per layer, the CI link, and 3 talking points for an interview.
+- [x] A fresh clone in a new folder, following only the README, reaches green tests.
+- [x] The README renders correctly on GitHub, including the Mermaid diagram and the images.
+- [x] PLAN.md is fully ticked.
+- [x] Final report: test counts per layer, the CI link, and 3 talking points for an interview.
