@@ -6,7 +6,11 @@
     "data:validate": "tsx data/validate.ts",
     "seed": "tsx db/seed.ts",
     "start": "tsx app/server.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sf:deploy": "tsx salesforce/deploy.ts",
+    "sf:load": "tsx salesforce/load.ts",
+    "sf:export": "tsx salesforce/export.ts",
+    "sf:reset": "tsx salesforce/reset.ts"
   },
   "private": true,
   "type": "module",

@@ -27,3 +27,7 @@
 | 2026-10-27 | D5 change? | CLI-0004 lastName truncated (Richards -> Richard) |
 | 2026-10-27 | Failed login HTTP status? | Re-render the form with 200 to avoid a browser console error; error shown in data-testid login-error |
 | 2026-10-27 | Logout button label? | "Sign out" |
+| 2026-10-27 | Salesforce org targeting? | Every sf script uses SF_ORG_ALIAS (default qa-dev) explicitly, never the CLI default org |
+| 2026-10-27 | Salesforce field access for the API user? | Permission set Migration_QA deployed with the objects and assigned by `npm run sf:deploy` |
+| 2026-10-27 | Funder name field in Salesforce? | Custom Funder_Name__c, mapped like every other domain field; Name holds a display name |
+| 2026-10-27 | Generated load CSVs and exports in git? | data/sf-load and data/sf-export are gitignored; the CI fixture lives in data/sf-export-fixture |

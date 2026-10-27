@@ -18,4 +18,5 @@ export const env = {
   appUsername: required('APP_USERNAME'),
   appPassword: required('APP_PASSWORD'),
   sessionSecret: required('SESSION_SECRET'),
+  sfOrgAlias: process.env.SF_ORG_ALIAS ?? 'qa-dev',
 };

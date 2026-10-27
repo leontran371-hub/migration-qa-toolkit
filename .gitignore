@@ -4,3 +4,5 @@ node_modules
 *.db
 test-results
 playwright-report
+data/sf-load
+data/sf-export
