@@ -50,20 +50,20 @@ DONE WHEN:
 ## Phase 2. Salesforce source
 
 Do:
-- [ ] STOP: user signs up for a free Developer Edition org, then runs `sf org login web --alias qa-dev`
-- [ ] Custom objects Client__c, Practitioner__c, Funder__c, Authorisation__c, Case__c (label "Service Case") and Booking__c as source metadata in /salesforce
-- [ ] Each object has External_Id__c (unique, external ID) and lookup fields between objects
-- [ ] Deploy with `sf project deploy start`
-- [ ] Load the clean CSVs with `sf data import bulk`, in dependency order
-- [ ] `npm run sf:export` queries every object into /data/sf-export/*.json
-- [ ] `npm run sf:reset` deletes all records so the load can be repeated
+- [x] STOP: user signs up for a free Developer Edition org, then runs `sf org login web --alias qa-dev`
+- [x] Custom objects Client__c, Practitioner__c, Funder__c, Authorisation__c, Case__c (label "Service Case") and Booking__c as source metadata in /salesforce
+- [x] Each object has External_Id__c (unique, external ID) and lookup fields between objects
+- [x] Deploy with `sf project deploy start`
+- [x] Load the clean CSVs with `sf data import bulk`, in dependency order
+- [x] `npm run sf:export` queries every object into /data/sf-export/*.json
+- [x] `npm run sf:reset` deletes all records so the load can be repeated
 
 DONE WHEN:
-- [ ] The deploy succeeds, and its output is shown.
-- [ ] A count query per object matches the CSV row counts exactly.
-- [ ] `npm run sf:export` produces one JSON file per object, and the counts match.
-- [ ] reset, load and export run twice in a row with identical results.
-- [ ] `git grep` shows no org ID, username or token in the repo.
+- [x] The deploy succeeds, and its output is shown.
+- [x] A count query per object matches the CSV row counts exactly.
+- [x] `npm run sf:export` produces one JSON file per object, and the counts match.
+- [x] reset, load and export run twice in a row with identical results.
+- [x] `git grep` shows no org ID, username or token in the repo.
 
 ## Phase 3. Comparison engine
 
