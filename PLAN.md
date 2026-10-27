@@ -85,21 +85,21 @@ DONE WHEN:
 Sub-agents in parallel: A = page objects and UI tests, B = API and DB helpers plus cross-layer tests.
 
 Do:
-- [ ] Page objects in /tests/pages: LoginPage, ClientListPage, ClientDetailPage, BookingListPage
-- [ ] Fixture that logs in once and reuses the saved state
-- [ ] Playwright webServer config starts the app automatically
-- [ ] A: UI tests for valid login, invalid login, logout, client search, client detail fields, booking pages showing defective bookings
-- [ ] B: helpers for the API and the SQLite database
-- [ ] B: tests that check one record through UI, API and DB in a single test (at least 3 records, including one defect)
-- [ ] Every test tagged @smoke or @regression
+- [x] Page objects in /tests/pages: LoginPage, ClientListPage, ClientDetailPage, BookingListPage
+- [x] Fixture that logs in once and reuses the saved state
+- [x] Playwright webServer config starts the app automatically
+- [x] A: UI tests for valid login, invalid login, logout, client search, client detail fields, booking pages showing defective bookings
+- [x] B: helpers for the API and the SQLite database
+- [x] B: tests that check one record through UI, API and DB in a single test (at least 3 records, including one defect)
+- [x] Every test tagged @smoke or @regression
 
 DONE WHEN:
-- [ ] At least 12 tests, all green.
-- [ ] `npx playwright test --repeat-each=3` passes with zero flaky results.
-- [ ] `grep -r "waitForTimeout" tests` returns nothing.
-- [ ] Locators use getByRole, getByLabel or getByTestId, never long CSS or XPath chains.
-- [ ] A forced failure saves a trace and a screenshot (demonstrated once, then reverted).
-- [ ] `npx playwright test --grep @smoke` runs only the smoke tests.
+- [x] At least 12 tests, all green.
+- [x] `npx playwright test --repeat-each=3` passes with zero flaky results.
+- [x] `grep -r "waitForTimeout" tests` returns nothing.
+- [x] Locators use getByRole, getByLabel or getByTestId, never long CSS or XPath chains.
+- [x] A forced failure saves a trace and a screenshot (demonstrated once, then reverted).
+- [x] `npx playwright test --grep @smoke` runs only the smoke tests.
 
 ## Phase 5. CI
 

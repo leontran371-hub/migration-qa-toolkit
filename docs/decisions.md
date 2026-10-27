@@ -33,3 +33,5 @@
 | 2026-10-27 | Generated load CSVs and exports in git? | data/sf-load and data/sf-export are gitignored; the CI fixture lives in data/sf-export-fixture |
 | 2026-10-27 | What is one "check" in the compare summary? | One (rule, record) pair: R1, R3, R4 per target booking; R2 per target authorisation; R5 per Salesforce record |
 | 2026-10-27 | How does --known match a finding? | Same rule, object, External ID and field (field only for R5 field mismatches) |
+| 2026-10-27 | Login once per worker? | Worker-scoped storageState fixture (not a setup project), so --grep @smoke still logs in |
+| 2026-10-27 | Logged-out API tests? | test.use(loggedOut) with the request fixture |
