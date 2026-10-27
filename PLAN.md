@@ -104,17 +104,17 @@ DONE WHEN:
 ## Phase 5. CI
 
 Do:
-- [ ] .github/workflows/ci.yml on push and pull request
-- [ ] Steps: install, type-check, data:generate, seed, unit tests, compare against /data/sf-export-fixture with --known, then Playwright
-- [ ] Commit the SF export fixture in /data/sf-export-fixture
-- [ ] Upload the Playwright and compare reports as artifacts, even when the run fails
-- [ ] Status badge in the README
+- [x] .github/workflows/ci.yml on push and pull request
+- [x] Steps: install, type-check, data:generate, seed, unit tests, compare against /data/sf-export-fixture with --known, then Playwright
+- [x] Commit the SF export fixture in /data/sf-export-fixture
+- [x] Upload the Playwright and compare reports as artifacts, even when the run fails
+- [x] Status badge in the README
 
 DONE WHEN:
-- [ ] The workflow is green on GitHub, and the run URL is shown.
-- [ ] Both reports can be downloaded from the run's artifacts.
-- [ ] Removing one entry from known-defects.json turns CI red (red run URL shown, then reverted to green).
-- [ ] The README badge shows passing.
+- [x] The workflow is green on GitHub, and the run URL is shown.
+- [x] Both reports can be downloaded from the run's artifacts.
+- [x] Removing one entry from known-defects.json turns CI red (red run URL shown, then reverted to green).
+- [x] The README badge shows passing.
 
 ## Phase 6. Polish
 
