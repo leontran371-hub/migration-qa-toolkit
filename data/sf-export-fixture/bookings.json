@@ -1,0 +1,542 @@
+[
+  {
+    "externalId": "BKG-0001",
+    "clientId": "CLI-0002",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0002",
+    "date": "2026-06-27",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0002",
+    "clientId": "CLI-0001",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0025",
+    "date": "2026-08-01",
+    "durationHours": 2.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0003",
+    "clientId": "CLI-0015",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0015",
+    "date": "2026-10-11",
+    "durationHours": 2.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0004",
+    "clientId": "CLI-0014",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0014",
+    "date": "2026-08-25",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0005",
+    "clientId": "CLI-0009",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0024",
+    "date": "2026-06-08",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0006",
+    "clientId": "CLI-0006",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0006",
+    "date": "2026-05-07",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0007",
+    "clientId": "CLI-0012",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0012",
+    "date": "2025-12-04",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0008",
+    "clientId": "CLI-0011",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0011",
+    "date": "2026-07-09",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0009",
+    "clientId": "CLI-0016",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0022",
+    "date": "2027-02-13",
+    "durationHours": 1,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0010",
+    "clientId": "CLI-0017",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0017",
+    "date": "2025-10-15",
+    "durationHours": 1.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0011",
+    "clientId": "CLI-0011",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0011",
+    "date": "2026-08-29",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0012",
+    "clientId": "CLI-0001",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0001",
+    "date": "2026-08-05",
+    "durationHours": 1.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0013",
+    "clientId": "CLI-0015",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0015",
+    "date": "2026-02-09",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0014",
+    "clientId": "CLI-0009",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0024",
+    "date": "2026-05-17",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0015",
+    "clientId": "CLI-0012",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0012",
+    "date": "2025-11-10",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0016",
+    "clientId": "CLI-0014",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0014",
+    "date": "2026-08-22",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0017",
+    "clientId": "CLI-0006",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0006",
+    "date": "2026-06-29",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0018",
+    "clientId": "CLI-0016",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0016",
+    "date": "2026-10-27",
+    "durationHours": 1.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0019",
+    "clientId": "CLI-0018",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0018",
+    "date": "2026-08-18",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0020",
+    "clientId": "CLI-0007",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0007",
+    "date": "2026-05-19",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0021",
+    "clientId": "CLI-0017",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0017",
+    "date": "2026-08-06",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0022",
+    "clientId": "CLI-0009",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0009",
+    "date": "2025-08-18",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0023",
+    "clientId": "CLI-0008",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0008",
+    "date": "2026-07-22",
+    "durationHours": 2.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0024",
+    "clientId": "CLI-0016",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0016",
+    "date": "2026-04-24",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0025",
+    "clientId": "CLI-0013",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0013",
+    "date": "2027-03-12",
+    "durationHours": 1.5,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0026",
+    "clientId": "CLI-0014",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0020",
+    "date": "2026-08-06",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0027",
+    "clientId": "CLI-0001",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0001",
+    "date": "2026-03-25",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0028",
+    "clientId": "CLI-0008",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0008",
+    "date": "2026-07-11",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0029",
+    "clientId": "CLI-0012",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0012",
+    "date": "2025-10-03",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0030",
+    "clientId": "CLI-0015",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0015",
+    "date": "2026-09-21",
+    "durationHours": 1.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0031",
+    "clientId": "CLI-0003",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0003",
+    "date": "2026-12-29",
+    "durationHours": 1,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0032",
+    "clientId": "CLI-0001",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0025",
+    "date": "2026-09-25",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0033",
+    "clientId": "CLI-0007",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0023",
+    "date": "2026-04-26",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0034",
+    "clientId": "CLI-0019",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0019",
+    "date": "2026-08-08",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0035",
+    "clientId": "CLI-0016",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0021",
+    "date": "2026-07-31",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0036",
+    "clientId": "CLI-0005",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0005",
+    "date": "2025-11-11",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0037",
+    "clientId": "CLI-0001",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0025",
+    "date": "2026-08-09",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0038",
+    "clientId": "CLI-0008",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0008",
+    "date": "2026-09-16",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0039",
+    "clientId": "CLI-0013",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0013",
+    "date": "2026-07-26",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0040",
+    "clientId": "CLI-0003",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0003",
+    "date": "2026-12-29",
+    "durationHours": 3,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0041",
+    "clientId": "CLI-0004",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0004",
+    "date": "2025-12-19",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0042",
+    "clientId": "CLI-0014",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0020",
+    "date": "2026-07-28",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0043",
+    "clientId": "CLI-0001",
+    "practitionerId": "PRA-0005",
+    "authorisationId": "AUT-0001",
+    "date": "2025-09-27",
+    "durationHours": 2.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0044",
+    "clientId": "CLI-0010",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0010",
+    "date": "2026-12-04",
+    "durationHours": 2.5,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0045",
+    "clientId": "CLI-0004",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0004",
+    "date": "2025-11-14",
+    "durationHours": 2.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0046",
+    "clientId": "CLI-0010",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0010",
+    "date": "2027-03-20",
+    "durationHours": 2,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0047",
+    "clientId": "CLI-0018",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0018",
+    "date": "2026-08-15",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0048",
+    "clientId": "CLI-0016",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0022",
+    "date": "2027-03-05",
+    "durationHours": 1,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0049",
+    "clientId": "CLI-0019",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0019",
+    "date": "2025-09-12",
+    "durationHours": 2.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0050",
+    "clientId": "CLI-0007",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0023",
+    "date": "2026-04-22",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0051",
+    "clientId": "CLI-0003",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0003",
+    "date": "2026-08-07",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0052",
+    "clientId": "CLI-0009",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0024",
+    "date": "2026-05-11",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0053",
+    "clientId": "CLI-0010",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0010",
+    "date": "2027-01-17",
+    "durationHours": 2.5,
+    "status": "Scheduled"
+  },
+  {
+    "externalId": "BKG-0054",
+    "clientId": "CLI-0016",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0021",
+    "date": "2026-10-06",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0055",
+    "clientId": "CLI-0007",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0007",
+    "date": "2026-08-11",
+    "durationHours": 3,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0056",
+    "clientId": "CLI-0016",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0016",
+    "date": "2026-05-08",
+    "durationHours": 2,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0057",
+    "clientId": "CLI-0009",
+    "practitionerId": "PRA-0003",
+    "authorisationId": "AUT-0009",
+    "date": "2025-11-08",
+    "durationHours": 1.5,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0058",
+    "clientId": "CLI-0002",
+    "practitionerId": "PRA-0002",
+    "authorisationId": "AUT-0002",
+    "date": "2026-07-19",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0059",
+    "clientId": "CLI-0013",
+    "practitionerId": "PRA-0001",
+    "authorisationId": "AUT-0013",
+    "date": "2026-06-04",
+    "durationHours": 1,
+    "status": "Completed"
+  },
+  {
+    "externalId": "BKG-0060",
+    "clientId": "CLI-0005",
+    "practitionerId": "PRA-0004",
+    "authorisationId": "AUT-0005",
+    "date": "2025-08-27",
+    "durationHours": 1,
+    "status": "Completed"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "externalId": "AUT-0001",
+    "clientId": "CLI-0001",
+    "funderId": "FUN-0003",
+    "startDate": "2025-08-11",
+    "endDate": "2026-08-10",
+    "hoursApproved": 45,
+    "hoursRemaining": 40,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0002",
+    "clientId": "CLI-0002",
+    "funderId": "FUN-0002",
+    "startDate": "2025-11-30",
+    "endDate": "2026-11-29",
+    "hoursApproved": 56,
+    "hoursRemaining": 53,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0003",
+    "clientId": "CLI-0003",
+    "funderId": "FUN-0003",
+    "startDate": "2026-08-05",
+    "endDate": "2027-01-31",
+    "hoursApproved": 23,
+    "hoursRemaining": 17,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0004",
+    "clientId": "CLI-0004",
+    "funderId": "FUN-0003",
+    "startDate": "2025-09-11",
+    "endDate": "2026-03-09",
+    "hoursApproved": 20,
+    "hoursRemaining": 14.5,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0005",
+    "clientId": "CLI-0005",
+    "funderId": "FUN-0002",
+    "startDate": "2025-08-15",
+    "endDate": "2025-11-12",
+    "hoursApproved": 26,
+    "hoursRemaining": 23,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0006",
+    "clientId": "CLI-0006",
+    "funderId": "FUN-0003",
+    "startDate": "2026-03-05",
+    "endDate": "2026-08-31",
+    "hoursApproved": 29,
+    "hoursRemaining": 26,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0007",
+    "clientId": "CLI-0007",
+    "funderId": "FUN-0001",
+    "startDate": "2026-05-18",
+    "endDate": "2026-08-15",
+    "hoursApproved": 50,
+    "hoursRemaining": 46,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0008",
+    "clientId": "CLI-0008",
+    "funderId": "FUN-0003",
+    "startDate": "2026-04-19",
+    "endDate": "2026-10-15",
+    "hoursApproved": 43,
+    "hoursRemaining": 36.5,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0009",
+    "clientId": "CLI-0009",
+    "funderId": "FUN-0002",
+    "startDate": "2025-08-12",
+    "endDate": "2025-11-09",
+    "hoursApproved": 30,
+    "hoursRemaining": 25.5,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0010",
+    "clientId": "CLI-0010",
+    "funderId": "FUN-0002",
+    "startDate": "2026-09-12",
+    "endDate": "2027-09-11",
+    "hoursApproved": 45,
+    "hoursRemaining": 38,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0011",
+    "clientId": "CLI-0011",
+    "funderId": "FUN-0002",
+    "startDate": "2026-06-24",
+    "endDate": "2026-12-20",
+    "hoursApproved": 40,
+    "hoursRemaining": 36,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0012",
+    "clientId": "CLI-0012",
+    "funderId": "FUN-0003",
+    "startDate": "2025-09-27",
+    "endDate": "2025-12-25",
+    "hoursApproved": 20,
+    "hoursRemaining": 14,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0013",
+    "clientId": "CLI-0013",
+    "funderId": "FUN-0001",
+    "startDate": "2026-04-18",
+    "endDate": "2027-04-17",
+    "hoursApproved": 59,
+    "hoursRemaining": 53.5,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0014",
+    "clientId": "CLI-0014",
+    "funderId": "FUN-0002",
+    "startDate": "2026-08-17",
+    "endDate": "2026-11-14",
+    "hoursApproved": 58,
+    "hoursRemaining": 56,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0015",
+    "clientId": "CLI-0015",
+    "funderId": "FUN-0003",
+    "startDate": "2026-01-10",
+    "endDate": "2027-01-09",
+    "hoursApproved": 54,
+    "hoursRemaining": 48,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0016",
+    "clientId": "CLI-0016",
+    "funderId": "FUN-0002",
+    "startDate": "2025-11-10",
+    "endDate": "2026-11-09",
+    "hoursApproved": 32,
+    "hoursRemaining": 26.5,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0017",
+    "clientId": "CLI-0017",
+    "funderId": "FUN-0002",
+    "startDate": "2025-09-15",
+    "endDate": "2026-09-14",
+    "hoursApproved": 48,
+    "hoursRemaining": 43.5,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0018",
+    "clientId": "CLI-0018",
+    "funderId": "FUN-0001",
+    "startDate": "2026-03-15",
+    "endDate": "2026-09-10",
+    "hoursApproved": 60,
+    "hoursRemaining": 55,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0019",
+    "clientId": "CLI-0019",
+    "funderId": "FUN-0002",
+    "startDate": "2025-09-02",
+    "endDate": "2026-09-01",
+    "hoursApproved": 50,
+    "hoursRemaining": 46.5,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0020",
+    "clientId": "CLI-0014",
+    "funderId": "FUN-0002",
+    "startDate": "2026-05-13",
+    "endDate": "2026-08-10",
+    "hoursApproved": 53,
+    "hoursRemaining": 49,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0021",
+    "clientId": "CLI-0016",
+    "funderId": "FUN-0003",
+    "startDate": "2026-07-27",
+    "endDate": "2027-01-22",
+    "hoursApproved": 40,
+    "hoursRemaining": 34,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0022",
+    "clientId": "CLI-0016",
+    "funderId": "FUN-0003",
+    "startDate": "2026-04-20",
+    "endDate": "2027-04-19",
+    "hoursApproved": 56,
+    "hoursRemaining": 54,
+    "status": "Active"
+  },
+  {
+    "externalId": "AUT-0023",
+    "clientId": "CLI-0007",
+    "funderId": "FUN-0001",
+    "startDate": "2025-12-17",
+    "endDate": "2026-06-14",
+    "hoursApproved": 21,
+    "hoursRemaining": 18,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0024",
+    "clientId": "CLI-0009",
+    "funderId": "FUN-0001",
+    "startDate": "2026-03-02",
+    "endDate": "2026-08-28",
+    "hoursApproved": 21,
+    "hoursRemaining": 14,
+    "status": "Expired"
+  },
+  {
+    "externalId": "AUT-0025",
+    "clientId": "CLI-0001",
+    "funderId": "FUN-0002",
+    "startDate": "2026-07-06",
+    "endDate": "2026-10-03",
+    "hoursApproved": 41,
+    "hoursRemaining": 32.5,
+    "status": "Expired"
+  }
+]

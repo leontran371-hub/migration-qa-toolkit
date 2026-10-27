@@ -1,0 +1,37 @@
+[
+  {
+    "externalId": "PRA-0001",
+    "firstName": "Connor",
+    "lastName": "Ferry",
+    "activeFrom": "2019-03-15",
+    "activeTo": null
+  },
+  {
+    "externalId": "PRA-0002",
+    "firstName": "Jake",
+    "lastName": "Thomson",
+    "activeFrom": "2020-04-24",
+    "activeTo": null
+  },
+  {
+    "externalId": "PRA-0003",
+    "firstName": "Isla",
+    "lastName": "Morissette",
+    "activeFrom": "2023-03-05",
+    "activeTo": null
+  },
+  {
+    "externalId": "PRA-0004",
+    "firstName": "Molly",
+    "lastName": "Mayer",
+    "activeFrom": "2021-12-08",
+    "activeTo": null
+  },
+  {
+    "externalId": "PRA-0005",
+    "firstName": "Savannah",
+    "lastName": "Bauch",
+    "activeFrom": "2022-03-28",
+    "activeTo": "2026-10-14"
+  }
+]

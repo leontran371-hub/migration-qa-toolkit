@@ -1,0 +1,142 @@
+[
+  {
+    "externalId": "CLI-0001",
+    "firstName": "Victoria",
+    "lastName": "Conroy",
+    "dateOfBirth": "1947-03-23",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0002",
+    "firstName": "Joseph",
+    "lastName": "Wilkinson",
+    "dateOfBirth": "1996-08-08",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0003",
+    "firstName": "Ava",
+    "lastName": "Hoppe",
+    "dateOfBirth": "1957-02-04",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0004",
+    "firstName": "Ella",
+    "lastName": "Richards",
+    "dateOfBirth": "1950-05-30",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0005",
+    "firstName": "Alex",
+    "lastName": "Berge",
+    "dateOfBirth": "2005-02-07",
+    "status": "Inactive"
+  },
+  {
+    "externalId": "CLI-0006",
+    "firstName": "Declan",
+    "lastName": "Howell",
+    "dateOfBirth": "1944-09-28",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0007",
+    "firstName": "Stella",
+    "lastName": "Goodwin",
+    "dateOfBirth": "1973-10-19",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0008",
+    "firstName": "Violet",
+    "lastName": "Swift",
+    "dateOfBirth": "1979-06-25",
+    "status": "Inactive"
+  },
+  {
+    "externalId": "CLI-0009",
+    "firstName": "Bella",
+    "lastName": "Harvey",
+    "dateOfBirth": "1955-08-23",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0010",
+    "firstName": "Elizabeth",
+    "lastName": "Rodriguez",
+    "dateOfBirth": "1941-04-11",
+    "status": "Inactive"
+  },
+  {
+    "externalId": "CLI-0011",
+    "firstName": "Charles",
+    "lastName": "Nolan",
+    "dateOfBirth": "1989-01-19",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0012",
+    "firstName": "Evie",
+    "lastName": "Martin",
+    "dateOfBirth": "1959-12-28",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0013",
+    "firstName": "Emma",
+    "lastName": "Stewart",
+    "dateOfBirth": "1970-04-22",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0014",
+    "firstName": "Max",
+    "lastName": "Keeling",
+    "dateOfBirth": "1973-12-29",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0015",
+    "firstName": "Amelia",
+    "lastName": "Goodwin",
+    "dateOfBirth": "1972-12-17",
+    "status": "Inactive"
+  },
+  {
+    "externalId": "CLI-0016",
+    "firstName": "Hayley",
+    "lastName": "Borer",
+    "dateOfBirth": "1956-12-26",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0017",
+    "firstName": "Nathan",
+    "lastName": "Rodriguez",
+    "dateOfBirth": "1949-06-15",
+    "status": "Inactive"
+  },
+  {
+    "externalId": "CLI-0018",
+    "firstName": "Nathan",
+    "lastName": "Carroll",
+    "dateOfBirth": "1952-06-22",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0019",
+    "firstName": "Patrick",
+    "lastName": "Hettinger",
+    "dateOfBirth": "1952-01-19",
+    "status": "Active"
+  },
+  {
+    "externalId": "CLI-0020",
+    "firstName": "Taylor",
+    "lastName": "Nicolas",
+    "dateOfBirth": "1962-05-19",
+    "status": "Inactive"
+  }
+]
