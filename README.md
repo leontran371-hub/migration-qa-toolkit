@@ -4,6 +4,8 @@
 
 A healthcare services company is moving its booking and billing data from Salesforce to a custom system. While both run side by side, this toolkit proves the data still matches. It generates one seeded, fake dataset and loads it into a real Salesforce Developer Edition org and into the target system's SQLite database, with six documented defects planted only in the target. It then checks five business rules with a deterministic comparison engine and tests the target app through its UI, its JSON API and its database in the same flow, on every push in GitHub Actions. All data is fake.
 
+![Demo: sign in, search a client, see the seeded defects in the target app, then the compare report](docs/images/demo.gif)
+
 ## Architecture
 
 ```mermaid
