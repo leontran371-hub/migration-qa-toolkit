@@ -1,0 +1,6 @@
+node_modules
+.env
+/reports
+*.db
+test-results
+playwright-report

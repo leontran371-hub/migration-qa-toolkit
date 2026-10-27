@@ -1,0 +1,11 @@
+{
+  "name": "migration-qa-toolkit",
+  "version": "1.0.0",
+  "scripts": {},
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
