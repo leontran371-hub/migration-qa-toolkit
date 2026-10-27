@@ -23,3 +23,7 @@
 | 2026-10-27 | Which fields does R5 compare? | Every field in the /app/types.ts interface for that object |
 | 2026-10-27 | Do target-only bookings (D1-D4) count as R5 findings? | No. R5 is one-directional (Salesforce to target), so each seeded defect yields exactly one finding |
 | 2026-10-27 | D2 finding shape? | One R2 finding on the authorisation, not one per booking |
+| 2026-10-27 | Brief conflict: 10 spare hours per authorisation vs 1-3h bookings means 3 bookings can't break R2. | D2 uses three 5h bookings; clean data keeps 1-3h bookings and >= 10 spare hours |
+| 2026-10-27 | D5 change? | CLI-0004 lastName truncated (Richards -> Richard) |
+| 2026-10-27 | Failed login HTTP status? | Re-render the form with 200 to avoid a browser console error; error shown in data-testid login-error |
+| 2026-10-27 | Logout button label? | "Sign out" |
