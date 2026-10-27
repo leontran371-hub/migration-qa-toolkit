@@ -2,7 +2,6 @@
   { "defect": "D1", "rule": "R1", "object": "Booking", "externalId": "BKG-0061" },
   { "defect": "D2", "rule": "R2", "object": "Authorisation", "externalId": "AUT-0012" },
   { "defect": "D3", "rule": "R3", "object": "Booking", "externalId": "BKG-0065" },
-  { "defect": "D4", "rule": "R4", "object": "Booking", "externalId": "BKG-0066" },
   { "defect": "D5", "rule": "R5", "object": "Client", "externalId": "CLI-0004", "field": "lastName" },
   { "defect": "D6", "rule": "R5", "object": "Client", "externalId": "CLI-0020" }
 ]
