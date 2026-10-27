@@ -3,19 +3,19 @@
 ## Phase 0. Setup
 
 Do:
-- [ ] git init
-- [ ] .gitignore (node_modules, .env, /reports, *.db, test-results, playwright-report)
-- [ ] package.json
-- [ ] tsconfig (strict mode)
-- [ ] Folders /app /data /db /salesforce /compare /tests /docs
-- [ ] /app/types.ts with the domain types
-- [ ] STOP: user runs `gh auth login`
-- [ ] `gh repo create migration-qa-toolkit --public --source=. --push`
+- [x] git init
+- [x] .gitignore (node_modules, .env, /reports, *.db, test-results, playwright-report)
+- [x] package.json
+- [x] tsconfig (strict mode)
+- [x] Folders /app /data /db /salesforce /compare /tests /docs
+- [x] /app/types.ts with the domain types
+- [x] STOP: user runs `gh auth login`
+- [x] `gh repo create migration-qa-toolkit --public --source=. --push`
 
 DONE WHEN:
-- [ ] `npm install` and `npx tsc --noEmit` both run with zero errors.
-- [ ] CLAUDE.md, PLAN.md, .env.example and /docs/decisions.md exist.
-- [ ] The public GitHub repo URL is shown, and the first commit is visible there.
+- [x] `npm install` and `npx tsc --noEmit` both run with zero errors.
+- [x] CLAUDE.md, PLAN.md, .env.example and /docs/decisions.md exist.
+- [x] The public GitHub repo URL is shown, and the first commit is visible there.
 
 ## Phase 1. Data and target system
 
