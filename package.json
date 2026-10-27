@@ -10,7 +10,9 @@
     "sf:deploy": "tsx salesforce/deploy.ts",
     "sf:load": "tsx salesforce/load.ts",
     "sf:export": "tsx salesforce/export.ts",
-    "sf:reset": "tsx salesforce/reset.ts"
+    "sf:reset": "tsx salesforce/reset.ts",
+    "compare": "tsx compare/cli.ts",
+    "test": "vitest run"
   },
   "private": true,
   "type": "module",
