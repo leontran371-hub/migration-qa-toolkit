@@ -9,5 +9,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["app", "data", "db", "salesforce", "compare", "tests"]
+  "include": ["app", "data", "db", "salesforce", "compare", "tests", "*.config.ts"]
 }
