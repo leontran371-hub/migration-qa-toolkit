@@ -17,7 +17,12 @@ export function sf<T = unknown>(args: string[]): T {
     if (!out) throw error;
   }
   const parsed = JSON.parse(out) as { status: number; result: T; message?: string };
-  if (parsed.status !== 0) throw new Error(`sf ${args[0]} ${args[1]} failed: ${parsed.message ?? out}`);
+  if (parsed.status !== 0) {
+    const failures = (parsed.result as { files?: { state: string; fullName: string; error?: string }[] })?.files
+      ?.filter((f) => f.state === 'Failed')
+      .map((f) => `  ${f.fullName}: ${f.error}`);
+    throw new Error([`sf ${args.slice(0, 3).join(' ')} failed: ${parsed.message ?? ''}`, ...(failures ?? [])].join('\n'));
+  }
   return parsed.result;
 }
 

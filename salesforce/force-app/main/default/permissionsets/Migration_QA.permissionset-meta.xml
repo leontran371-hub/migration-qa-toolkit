@@ -1,194 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Migration QA</label>
     <description>Access to the migration QA custom objects.</description>
-    <objectPermissions>
-        <object>Funder__c</object>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Funder__c.Funder_Name__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
-    <objectPermissions>
-        <object>Client__c</object>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Client__c.First_Name__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Client__c.Last_Name__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Client__c.Date_of_Birth__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Client__c.Status__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
-    <objectPermissions>
-        <object>Practitioner__c</object>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Practitioner__c.First_Name__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Practitioner__c.Last_Name__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Practitioner__c.Active_From__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Practitioner__c.Active_To__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
-    <objectPermissions>
-        <object>Authorisation__c</object>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Authorisation__c.Client__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Authorisation__c.Funder__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Authorisation__c.Start_Date__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Authorisation__c.End_Date__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Authorisation__c.Hours_Approved__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Authorisation__c.Hours_Remaining__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Authorisation__c.Status__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
-    <objectPermissions>
-        <object>Case__c</object>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Case__c.Client__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Case__c.Funder__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Case__c.Opened_Date__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
         <field>Case__c.Closed_Date__c</field>
-        <editable>true</editable>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <field>Case__c.Status__c</field>
         <editable>true</editable>
+        <field>Case__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Booking__c.Client__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Booking__c.Practitioner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Booking__c.Authorisation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Booking__c.Booking_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Booking__c.Duration_Hours__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Booking__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <label>Migration QA</label>
     <objectPermissions>
-        <object>Booking__c</object>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Funder__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <fieldPermissions>
-        <field>Booking__c.Client__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Booking__c.Practitioner__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Booking__c.Authorisation__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Booking__c.Booking_Date__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Booking__c.Duration_Hours__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Booking__c.Status__c</field>
-        <editable>true</editable>
-        <readable>true</readable>
-    </fieldPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Client__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Practitioner__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Authorisation__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Case__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Booking__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
 </PermissionSet>
