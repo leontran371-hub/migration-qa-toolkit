@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= pageTitle %> | Target system</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <span class="brand">Target system</span>
+<% if (locals.currentUser) { %>
+    <nav aria-label="Main">
+      <a href="/clients" data-testid="nav-clients">Clients</a>
+      <a href="/authorisations" data-testid="nav-authorisations">Authorisations</a>
+      <a href="/bookings" data-testid="nav-bookings">Bookings</a>
+    </nav>
+    <form method="post" action="/logout" class="logout">
+      <span data-testid="current-user"><%= locals.currentUser %></span>
+      <button type="submit" data-testid="logout-button">Sign out</button>
+    </form>
+<% } %>
+  </header>
+  <main>

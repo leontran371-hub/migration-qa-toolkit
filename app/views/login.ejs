@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+    <h1 data-testid="page-heading">Sign in</h1>
+<% if (error) { %>
+    <p class="error" role="alert" data-testid="login-error"><%= error %></p>
+<% } %>
+    <form method="post" action="/login" class="login-form" data-testid="login-form">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" autocomplete="username" required value="<%= username %>" data-testid="login-username">
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required data-testid="login-password">
+      <button type="submit" data-testid="login-submit">Sign in</button>
+    </form>
+<%- include('partials/footer') %>

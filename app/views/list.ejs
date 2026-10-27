@@ -1,0 +1,36 @@
+<%- include('partials/header') %>
+    <h1 data-testid="page-heading"><%= view.title %></h1>
+<% if (search) { %>
+    <form method="get" action="<%= view.basePath %>" role="search" class="search">
+      <label for="client-search">Search clients</label>
+      <input id="client-search" name="q" type="search" value="<%= search.q %>" data-testid="client-search-input">
+      <button type="submit" data-testid="client-search-submit">Search</button>
+    </form>
+<% } %>
+<% if (rows.length === 0) { %>
+    <p data-testid="empty-state">No <%= view.title.toLowerCase() %> found.</p>
+<% } else { %>
+    <table data-testid="<%= view.key %>-table">
+      <thead>
+        <tr>
+<% columns.forEach((label) => { %>
+          <th scope="col"><%= label %></th>
+<% }) %>
+        </tr>
+      </thead>
+      <tbody>
+<% rows.forEach((row) => { %>
+        <tr data-testid="<%= view.key %>-row-<%= row.id %>">
+<% row.cells.forEach((cell, i) => { %>
+<% if (i === 0) { %>
+          <th scope="row" data-testid="<%= view.key %>-cell-<%= cell.field %>"><a href="<%= row.href %>" data-testid="<%= view.key %>-link-<%= row.id %>"><%= cell.text %></a></th>
+<% } else { %>
+          <td data-testid="<%= view.key %>-cell-<%= cell.field %>"><%= cell.text %></td>
+<% } %>
+<% }) %>
+        </tr>
+<% }) %>
+      </tbody>
+    </table>
+<% } %>
+<%- include('partials/footer') %>

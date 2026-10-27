@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+    <h1 data-testid="page-heading"><%= view.singular %> <%= record.externalId %></h1>
+    <dl class="detail" data-testid="<%= view.key %>-detail">
+<% fields.forEach((field) => { %>
+      <dt><%= field.label %></dt>
+      <dd data-testid="<%= view.key %>-field-<%= field.field %>"><% if (field.href) { %><a href="<%= field.href %>"><%= field.text %></a><% } else { %><%= field.text %><% } %></dd>
+<% }) %>
+    </dl>
+    <p><a href="<%= view.basePath %>" data-testid="back-link">Back to <%= view.title.toLowerCase() %></a></p>
+<%- include('partials/footer') %>

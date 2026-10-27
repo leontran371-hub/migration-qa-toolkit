@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin: 0; color: #1d1d1f; background: #fff; }
+.site-header { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; padding: 0.75rem 1rem; background: #f2f4f7; border-bottom: 1px solid #d0d5dd; }
+.brand { font-weight: 600; }
+nav { display: flex; gap: 1rem; }
+.logout { margin-left: auto; display: flex; gap: 0.5rem; align-items: center; }
+main { padding: 1rem; max-width: 72rem; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #e4e7ec; }
+thead th { background: #f9fafb; }
+.login-form { display: grid; gap: 0.5rem; max-width: 20rem; }
+.search { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 1rem; }
+.error { color: #b42318; }
+.detail { display: grid; grid-template-columns: max-content 1fr; gap: 0.4rem 1rem; }
+.detail dt { font-weight: 600; }
+.detail dd { margin: 0; }
