@@ -63,3 +63,26 @@ export interface Booking {
   durationHours: number;
   status: 'Scheduled' | 'Completed';
 }
+
+export interface Dataset {
+  clients: Client[];
+  practitioners: Practitioner[];
+  funders: Funder[];
+  authorisations: Authorisation[];
+  cases: Case[];
+  bookings: Booking[];
+}
+
+export type ObjectName = 'Client' | 'Practitioner' | 'Funder' | 'Authorisation' | 'Case' | 'Booking';
+
+export type RuleId = 'R1' | 'R2' | 'R3' | 'R4' | 'R5';
+
+export interface Finding {
+  rule: RuleId;
+  object: ObjectName;
+  externalId: string;
+  /** Field name for R5 mismatches; omitted otherwise. */
+  field?: string;
+  expected: string;
+  actual: string;
+}
