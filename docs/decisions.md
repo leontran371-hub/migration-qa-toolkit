@@ -31,3 +31,5 @@
 | 2026-10-27 | Salesforce field access for the API user? | Permission set Migration_QA deployed with the objects and assigned by `npm run sf:deploy` |
 | 2026-10-27 | Funder name field in Salesforce? | Custom Funder_Name__c, mapped like every other domain field; Name holds a display name |
 | 2026-10-27 | Generated load CSVs and exports in git? | data/sf-load and data/sf-export are gitignored; the CI fixture lives in data/sf-export-fixture |
+| 2026-10-27 | What is one "check" in the compare summary? | One (rule, record) pair: R1, R3, R4 per target booking; R2 per target authorisation; R5 per Salesforce record |
+| 2026-10-27 | How does --known match a finding? | Same rule, object, External ID and field (field only for R5 field mismatches) |

@@ -68,17 +68,17 @@ DONE WHEN:
 ## Phase 3. Comparison engine
 
 Do:
-- [ ] `npm run compare` reads /data/sf-export and /db/target.db, matches on External ID, checks R1 to R5
-- [ ] Writes /reports/compare.html and /reports/compare.json
-- [ ] Exit code 0 when there are no failures, otherwise 1
-- [ ] `--known docs/known-defects.json` marks listed defects as KNOWN, not FAILED
+- [x] `npm run compare` reads /data/sf-export and /db/target.db, matches on External ID, checks R1 to R5
+- [x] Writes /reports/compare.html and /reports/compare.json
+- [x] Exit code 0 when there are no failures, otherwise 1
+- [x] `--known docs/known-defects.json` marks listed defects as KNOWN, not FAILED
 
 DONE WHEN:
-- [ ] Exactly the 6 seeded defects are reported (D1 to D6), each with object, External ID, rule, expected value and actual value.
-- [ ] Zero findings on any other record.
-- [ ] With --known listing all 6, the exit code is 0. With one removed, it is 1.
-- [ ] Vitest unit tests cover every rule with at least one pass case and one fail case, and `npm test` is green.
-- [ ] The HTML report shows a summary (total checked, passed, failed, known), then a table of findings.
+- [x] Exactly the 6 seeded defects are reported (D1 to D6), each with object, External ID, rule, expected value and actual value.
+- [x] Zero findings on any other record.
+- [x] With --known listing all 6, the exit code is 0. With one removed, it is 1.
+- [x] Vitest unit tests cover every rule with at least one pass case and one fail case, and `npm test` is green.
+- [x] The HTML report shows a summary (total checked, passed, failed, known), then a table of findings.
 
 ## Phase 4. Playwright
 
