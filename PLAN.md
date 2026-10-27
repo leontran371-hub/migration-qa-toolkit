@@ -22,30 +22,30 @@ DONE WHEN:
 Sub-agents in parallel after types.ts: A = data and database, B = app and API.
 
 Do (A):
-- [ ] `npm run data:generate` writes the clean CSVs: 20 clients, 5 practitioners (1 inactive from 2026-10-15), 3 funders, 25 authorisations, 20 cases, 60 bookings
-- [ ] `npm run seed` builds a fresh /db/target.db from the CSVs, then applies the defects
-- [ ] D1 booking dated after its authorisation's end date (breaks R1)
-- [ ] D2 bookings that push an authorisation over its approved hours (breaks R2)
-- [ ] D3 booking with no authorisation (breaks R3)
-- [ ] D4 booking with the inactive practitioner after 2026-10-15 (breaks R4)
-- [ ] D5 client whose last name differs from Salesforce (breaks R5)
-- [ ] D6 client that exists in Salesforce but is missing from the target (breaks R5)
-- [ ] The clean CSVs satisfy R1 to R5 with zero violations
+- [x] `npm run data:generate` writes the clean CSVs: 20 clients, 5 practitioners (1 inactive from 2026-10-15), 3 funders, 25 authorisations, 20 cases, 60 bookings
+- [x] `npm run seed` builds a fresh /db/target.db from the CSVs, then applies the defects
+- [x] D1 booking dated after its authorisation's end date (breaks R1)
+- [x] D2 bookings that push an authorisation over its approved hours (breaks R2)
+- [x] D3 booking with no authorisation (breaks R3)
+- [x] D4 booking with the inactive practitioner after 2026-10-15 (breaks R4)
+- [x] D5 client whose last name differs from Salesforce (breaks R5)
+- [x] D6 client that exists in Salesforce but is missing from the target (breaks R5)
+- [x] The clean CSVs satisfy R1 to R5 with zero violations
 
 Do (B):
-- [ ] Express app on port 3000
-- [ ] Single test user (credentials from .env), login and logout
-- [ ] List and detail pages for clients, authorisations and bookings
-- [ ] Search box on the client list
-- [ ] JSON endpoints GET /api/clients, /api/clients/:externalId, /api/authorisations, /api/bookings, each requiring login
-- [ ] Every key element has a data-testid
+- [x] Express app on port 3000
+- [x] Single test user (credentials from .env), login and logout
+- [x] List and detail pages for clients, authorisations and bookings
+- [x] Search box on the client list
+- [x] JSON endpoints GET /api/clients, /api/clients/:externalId, /api/authorisations, /api/bookings, each requiring login
+- [x] Every key element has a data-testid
 
 DONE WHEN:
-- [ ] On a clean clone: `npm run data:generate && npm run seed && npm start` works, and the app is at http://localhost:3000.
-- [ ] Running data:generate twice gives identical CSVs (checksum shown).
-- [ ] Login, logout and every page work with no browser console errors.
-- [ ] Each API endpoint returns JSON matching its type in /app/types.ts, and returns 401 when logged out.
-- [ ] /docs/seeded-defects.md lists D1 to D6, each with its rule and the External IDs involved.
+- [x] On a clean clone: `npm run data:generate && npm run seed && npm start` works, and the app is at http://localhost:3000.
+- [x] Running data:generate twice gives identical CSVs (checksum shown).
+- [x] Login, logout and every page work with no browser console errors.
+- [x] Each API endpoint returns JSON matching its type in /app/types.ts, and returns 401 when logged out.
+- [x] /docs/seeded-defects.md lists D1 to D6, each with its rule and the External IDs involved.
 
 ## Phase 2. Salesforce source
 
